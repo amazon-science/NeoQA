@@ -1,0 +1,15 @@
+Given the following news articles, the question, and the answer options, answer the question.
+If the question cannot be answered with certainty based on the news articles, select the answer option "Unanswerable".
+
+News Articles:
+{{NEWS_ARTICLES}}
+
+Question: {{QUESTION}}
+
+Date of Question: {{DATE}}
+
+Answer options:
+{{ANSWERS}}
+
+Select the answer option that correctly answers the question. If the question cannot be answered with certainty based on the news articles, choose "Unanswerable" (if it is one of the options). In the final line of your response, provide the number of the correct answer option using the format: "Answer: [answer number]" (for example, "Answer: X").
+Let’s work this out in a step by step way to be sure we have the right answer.

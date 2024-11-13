@@ -1,0 +1,21 @@
+name: timeless-experiments-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - huggingface
+  - defaults
+dependencies:
+  - python=3.11.9
+  - pytorch=2.5.1
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - pytorch-cuda=12.1
+  - transformers=4.46.1
+  - datasets=3.2.0
+  - pip:
+    - accelerate==1.2.1
+    - pandas==2.2.3
+    - docopt==0.6.2
+    - flash-attn==2.7.2.post1
+    - scikit-learn==1.6.0
