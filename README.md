@@ -113,7 +113,6 @@ If you use NeoQA in your research or projects, please cite the following:
   journal      = {arXiv preprint arXiv:XXXXX.XXXX},
   year         = {2025},
   url          = {https://arxiv.org/abs/XXXXX.XXXX},
-  note         = {Accessed: 2025-04-11}
 }
 ````
 
