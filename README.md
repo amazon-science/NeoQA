@@ -117,6 +117,9 @@ If you use NeoQA in your research or projects, please cite the following:
 }
 ````
 
+> This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
+
+
 
 
 
