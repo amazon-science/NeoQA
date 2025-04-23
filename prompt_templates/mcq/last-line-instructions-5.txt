@@ -1,0 +1,36 @@
+You will receive news articles, a question, a date on which the question is asked, and answer options.
+Your task is to evaluate the articles, determine if they provide enough information to answer the question based on the date, and choose the correct answer.
+
+News Articles:
+{{NEWS_ARTICLES}}
+
+Question: {{QUESTION}}
+
+Date of Question: {{DATE}}
+
+Answer options:
+{{ANSWERS}}
+
+**Instructions:**
+1. **Analyze the news articles:**
+   - Carefully read all the news articles.
+   - Compare the information in the articles with the question.
+   - Check if the combined information from the articles confirms all the details required to answer the question.
+   - Ensure that the question does not contain contradictory information compared to the provided news articles. Select the "Unanswerable" option if it does.
+   - Verify that the information in the news articles is sufficient to answer the question with certainty. If you cannot answer the question with certainty based on the evidence, select the "Unanswerable" option.
+   - The news articles may not be in the correct temporal order.
+   - If the question mentions an "event date", this refers to the date of the news article.
+   - Unless otherwise stated, you can assume that each news article reports events that occurred on the date of the article.
+
+2. **Double-check the details:**
+   - Use only the information provided in the news articles.
+   - Avoid assumptions beyond what is explicitly stated.
+   - Do not make guesses. Only provide an answer if the information in the article is enough to answer the question with certainty. If it’s not, select the "Unanswerable" option.
+   - Make sure that all the necessary information from the question is present in the news article. For each detail in the question, write down how you verified it against the articles, along with your conclusion. If any important details are missing and it’s unclear whether the article fully supports the question, select the "Unanswerable" option.   - Use only the information provided in the news articles.
+
+3. **Select an Answer:**
+   - Choose the correct answer if all necessary details are provided.
+   - If the articles lack information or any important detail is missing, select the option for "Unanswerable".
+
+4. **Submit your Answer:**
+   - Select the answer option that correctly answers the question. If the question cannot be answered with certainty based on the news articles, choose "Unanswerable" (if it is one of the options). In the final line of your response, provide the number of the correct answer option using the format: "Answer: [answer number]" (for example, "Answer: X").
