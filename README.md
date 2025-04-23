@@ -58,7 +58,7 @@ dataset = load_dataset(
 The data is encrypted using XOR with the key ``23456``. It will be automatically decrypted when the correct key is provided.
 
 ### ⬇️ Download the original files
-You can download the original (encrypted) .jsonl files directly from [here](todo). After downloading, decrypt the files by running the following command:Once you have downloaded the files you can decrypt them by running 
+You can download the original (encrypted) .jsonl files directly from [here](https://drive.google.com/drive/folders/1et73Ue83WIfH1Yv7Gdn43QQN7Hdm8xNl?usp=sharing). After downloading, decrypt the files by running the following command:Once you have downloaded the files you can decrypt them by running 
 ````shell
 python decrypt_neoqa.py <src> <key>
 ````
