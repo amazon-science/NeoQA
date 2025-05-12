@@ -110,9 +110,9 @@ If you use NeoQA in your research or projects, please cite the following:
 @article{glockner2025neoqa,
   author       = {Glockner, Max and Jiang, Xiang and Ribeiro, Leonardo F.R. and Gurevych, Iryna and Dreyer, Markus},
   title        = {NeoQA: Evidence-based Question Answering with Generated News Events},
-  journal      = {arXiv preprint arXiv:XXXXX.XXXX},
+  journal      = {arXiv preprint arXiv:2505.05949},
   year         = {2025},
-  url          = {https://arxiv.org/abs/XXXXX.XXXX},
+  url          = {https://arxiv.org/abs/2505.05949}
 }
 ````
 
